@@ -1,0 +1,125 @@
+
+
+/* ===========sidebar=========== */
+
+.sidebar {
+    background-color: #bc98fb;
+    height: 100vh;
+    width: 300px;
+    position: sticky;
+    top: 80px;
+    right: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1000;
+}
+
+.sidebar-text {
+    font-size: 1.3rem;
+    color: rgb(52, 49, 49);
+    left: 5.6rem;
+    position: relative;
+    top: -3em;
+}
+
+.border {
+    border: solid 2px #ffffff;
+    padding: 0.5em;
+    display: flex;
+    position: sticky;
+    align-items: center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    size: 20px;
+    position: sticky;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.border:hover {
+    background-color: #dbafaf;
+    cursor: pointer;
+
+}
+
+.pop1,
+.pop2,
+.pop3,
+.pop4,
+.pop5 {
+    position: absolute;
+    top: -5px;
+    left: 130%;
+    width: 200%;
+    display: none;
+
+}
+
+.border:hover .pop1 {
+    margin-top: -90px;
+    display: block;
+}
+
+.border:hover .pop2 {
+    margin-top: -160px;
+    display: block;
+}
+
+.border:hover .pop3 {
+    margin-top: -230px;
+    display: block;
+}
+
+.border:hover .pop4 {
+    margin-top: -300px;
+    display: block;
+}
+
+.border:hover .pop5 {
+    margin-top: -370px;
+    display: block;
+}
+
+.main-text {
+    margin-bottom: -2rem;
+    color: black;
+    margin-top: -30px;
+    margin-left: 1rem;
+}
+
+.icon {
+    margin-bottom: -3em;
+}
+
+.avatar {
+    margin-left: 5px;
+    width: 15%;
+    height: 10%;
+}
+
+.threedot img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#toggleBox:checked+label+.sidebar {
+    display: block;
+}
+
+.sidebar button{
+    text-align: center;
+    padding: 2px 4em;
+    background-color: #000000;
+    color: rgb(168, 139, 139);
+    border: 2px solid #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2em;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
